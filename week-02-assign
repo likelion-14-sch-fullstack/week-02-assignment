@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>차성진의 자기소개</title>
+</head>
+<body>
+
+    <h1>안녕하세요! 저는 차성진입니다.</h1>
+    
+    <p>현재 <strong>의료IT공학과</strong>에서 공부하며 개발자의 꿈을 키워가고 있습니다.</p>
+    
+    <p>반갑습니다! VS Code와 HTML을 활용해 나만의 웹페이지를 만들어보고 있어요.</p>
+    
+    <p>전공 지식과 IT 기술을 결합해 앞으로 유능한 개발자가 되도록 노력하겠습니다!</p>
+
+</body>
+</html>
