@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>자기소개</title>
+
+    <style>
+
+        /*전체 페이지 설정 */
+        body {
+            margin: 0; /*여백 제거*/
+            /*폰트설정*/
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            /*배경색 흰색*/
+            background: #eef2f7;
+            /*글씨 색상 검정 */
+            color: #222;
+        }
+
+        /*컨테이너 클래스*/
+        .container {
+            /*최대 너비*/
+            max-width: 650px;
+            /*가운데 정렬*/
+            margin: 50px auto;
+            /*좌우 여백*/
+            padding: 0 20px;
+        }
+
+        /*카드 클래스 */
+        .card {
+            background: #ffffff;
+            padding: 20px;
+            /*카드 간 간격*/
+            margin-bottom: 20px;
+            /*모서리 둥글게 */
+            border-radius: 12px;
+            /*왼쪽 모서리 포인트 색상 */
+            border-left: 5px solid #008607;
+        }
+
+        /*카드에 마우스 올렸을때 hover 효과 */
+        .card:hover {
+            /*y좌표 -4만큼 이동*/
+            transform: translateY(-4px);
+        }
+        /*프로필 클래스*/
+        .profile {
+            /*가운데 정렬*/
+            text-align: center;
+            /*왼쪽 라인X*/
+            border-left: none;
+            /*위쪽 포인트 색상*/
+            border-top: 5px solid #008607;
+        }
+        /*h1 스타일*/
+        h1 {
+            margin: 5px 0;
+            font-size: 22px;
+        }
+
+        /*h2 스타일 */
+        h2 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #09d413;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+        /*리스트 스타일*/
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            padding: 6px 0;
+        }
+
+        /*기술 스택 클래스*/
+        .tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        /*개별 태그 클래스*/
+        .tag {
+            /*배경색*/
+            background: #e3fce4;
+            /*글씨 색*/
+            color: #09d413;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- 프로필 -->
+    <div class="card profile">
+        <h1>권태열</h1>
+        <p>컴퓨터공학과</p>
+        <p>2003.10.23</p>
+    </div>
+
+    <!-- 자기소개 -->
+    <div class="card">
+        <h2>자기소개</h2>
+        <p>
+            웹 개발자가 되고 싶은 컴공생<br>
+            Spring Boot, Java 공부 중<br>
+            꾸준히 성장하는 개발자 지향
+        </p>
+    </div>
+
+    <!-- 연락처 -->
+    <div class="card">
+        <h2>연락처</h2>
+        <ul>
+            <li>Email: gamejop123@gmail.com</li>
+            <li>Phone: 010-4397-6897</li>
+        </ul>
+    </div>
+
+    <!-- 기술 스택 -->
+    <div class="card">
+        <h2>기술 스택</h2>
+        <div class="tags">
+            <div class="tag">Java</div>
+            <div class="tag">Spring Boot</div>
+            <div class="tag">Python</div>
+        </div>
+    </div>
+
+    <!-- 취미 -->
+    <div class="card">
+        <h2>취미</h2>
+        <ul>
+            <li>영화</li>
+            <li>운동</li>
+            <li>게임</li>
+        </ul>
+    </div>
+    
+</div>
+
+</body>
+</html>
