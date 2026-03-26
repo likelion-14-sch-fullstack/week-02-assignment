@@ -3,42 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>자기소개 페이지</title>
+    <link rel="stylesheet" href="3차시.css">
 </head>
 <body>
 
-    <section>
+    <section class="card profile-card">
         <h2>상단 프로필 카드</h2>
-        <img src="./image/profile-img.jpeg" alt="프로필 이미지">
-        <div>
-            <h1>이름: 김서연</h1>
-            <p>소속: 순천향대학교 / 멋쟁이사자처럼14기</p>
+        
+        <div class="profile-container">
+            <img src="../image/profile-img.jpeg" alt="프로필 이미지" class="profile-img">
+            
+            <div class="profile-info">
+                <h1>이름: 김서연</h1>
+                <p>소속: 순천향대학교 / 멋쟁이사자처럼14기</p>
+            </div>
         </div>
     </section>
 
     <hr>
 
-    <section>
+    <section class="card intro-card">
         <h2>자기소개 & 연락처</h2>
-        <ul>
+        <ul class="info-list">
             <li><strong>한 줄 소개:</strong> 성장하는 프론트엔드 개발자입니다.</li>
             <li><strong>이메일:</strong> werwer@email.com</li>
             <li><strong>연락처:</strong> 010-1234-5678</li>
-            <li><strong>깃헙주소: https://github.com/Seon-K</strong> </li>
+            <li><strong>깃헙주소:</strong> https://github.com/Seon-K</li>
         </ul>
     </section>
 
     <hr>
 
-    <section>
+    <section class="card skill-card">
         <h2>기술 스택 & 다짐</h2>
         
         <h3>보유 기술</h3>
-        <p>
+        <p class="skills">
             <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>React</strong>, <strong>Next</strong>, <strong>Python</strong>
         </p>
 
         <h3>나의 다짐</h3>
-        <p>
+        <p class="goal">
             <em>"오늘보다 더 나은 내일의 코드를 짜기 위해 매일 노력하겠습니다!"</em>
         </p>
     </section>
